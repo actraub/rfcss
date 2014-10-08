@@ -1,0 +1,94 @@
+
+.cbp_tmtimeline {
+    margin: 40px 0 0 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+
+/* The line */
+.cbp_tmtimeline li:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 7px;
+    background: #ccc;
+    left: 40px;
+    margin-left: -8px;
+    min-height: 120px;
+}
+
+.cbp_tmtimeline li.first:before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    bottom: 0;
+    width: 7px;
+    height: 120px;
+    background-image: url(../img/time_bg.png);
+    left: 40px;
+    margin-left: -8px;
+    min-height: 120px;
+}
+
+.cbp_tmtimeline > li {
+    position: relative;
+}
+
+/* Right content */
+.cbp_tmtimeline > li .cbp_tmlabel {
+    margin: 0 0 15px 60px;
+    padding: 1em;
+    font-size: .9em;
+    font-weight: 400;
+    line-height: 1;
+    position: relative;
+    border-radius: 5px;
+}
+
+.cbp_tmtimeline > li .cbp_tmlabel p{
+    margin-top: -8px;
+    line-height: 1.5em;
+}
+
+/* The avitars */
+.cbp_tmtimeline > li .cbp_tmicon {
+    width: 40px;
+    height: 40px;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 0 0 0 8px #ccc;
+    text-align: center;
+    left: 40px;
+    top: 0;
+    margin: 0 0 0 -25px;
+}
+
+
+
+
+.cbp_tmtimeline li.last:before {
+    background:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

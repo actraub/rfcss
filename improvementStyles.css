@@ -1,0 +1,395 @@
+/*-----Hoa begin edit CSS for working better*/
+.add-risk, .add-control, .add-customfield, .add-item-text {
+    margin-top: 15px;
+    /* margin-bottom: 15px; */
+    /* width: 120px; */
+    /* height: 29px; */
+    position: absolute;
+    margin-left: 30px;
+}
+
+.ngHeaderGrip  {
+    background-color: rgba(233, 233, 233, 1);
+
+}
+
+.ngHeaderText  {
+    padding-left: 10px;
+    padding-top: 15px;
+    font-size: 130%;
+    font-weight: bolder;
+    color: #333333;
+}
+.ngHeaderContainer {
+    border-bottom: 1px dashed #ddd;
+}
+.rating {
+    /*padding-left: 10px;*/
+    padding-right: 10px;
+}
+.ngCell {
+    z-index:1;
+    padding-top:10px;
+    height: auto !important;
+    font-weight:bold;
+    padding-left:10px;
+    color:#666666;
+}
+.ngCell .riskNumber {
+    padding-left: 20px;
+}
+
+.ngRow {
+    border-bottom:none;
+    color:#666666;
+}
+
+.ngCellText{
+    white-space:normal !important;
+}
+
+.ngVerticalBarVisible{
+    display:none;
+}
+
+.custom-dropdown-menu >li >a {
+    color: #6DCAED;
+}
+.custom-dropdown-menu >li >a:hover{
+    color: #AAAAAA;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #dddddd;
+}
+
+.form-control:-moz-placeholder { /* Firefox 18- */
+    color: #dddddd;
+}
+
+.form-control::-moz-placeholder {  /* Firefox 19+ */
+    color: #dddddd;
+}
+
+.form-control:-ms-input-placeholder {
+    color: #dddddd;
+}
+.profileuser-content{
+    background-color:#FFFFFF    ;
+    width:100%;
+    height: 100%;
+}
+
+.admin-area-content {
+    background-color:#FFFFFF;
+    width:100%;
+    height: 100%;
+}
+
+.profile-content-nav {
+    color:#131313;
+    padding: 5px 0px 0px 15px;
+    height:100%;
+    float:left;
+    width: 20%;
+}
+
+.profile-content-nav ul li {
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+    background-color:#E0E0E0;
+    border: 1px solid #d4d4d4;
+}
+
+.profile-content-nav ul li a{
+    color:#666666 !important;
+    text-align: left;
+    font-weight: bolder;
+}
+
+.profile-content-nav ul li .active{
+    background-color:#F1F1F1;
+}
+
+
+.profile-content-nav ul li a:hover {
+    background-color:#F1F1F1;
+}
+.tab-content-container {
+    /*.user-profile-tab-content{*/
+    float:left;
+    padding-left: 20px;
+    padding-right:10px;
+    padding-top: 10px;
+    width:80%;
+}
+.myprofile-header{
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#666666;
+    font-size: 120%;
+}
+.table>tbody>tr>th, .table>tbody>tr>td {
+    border-top: none;
+}
+
+.table tr{
+    padding-top:20px;
+}
+
+.forgot_password{
+    color;#6DCAED;
+}
+input[type="file"]:hover {
+    cursor: pointer;
+    left: 0;
+    opacity: 0;
+    outline: 0 none;
+    position: absolute;
+    top: 0;
+    z-index: 99;
+}
+.file-input-wrapper {
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.rating-text {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+.image-list li img{
+    margin-top: -26px;
+}
+.image-list .name {
+    top: -15px;
+}
+
+.image-list .name a{
+    font-weight: bold;
+}
+
+.riskbadge{
+    width: 80px;
+}
+
+
+/* custom checkbox*/
+.custom-checkbox{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    top: 3px;
+    background: url("checkbox.png") no-repeat;
+}
+.custom-checkbox:hover{
+    background: url("checkbox-hover.png") no-repeat;
+}
+.custom-checkbox.selected{
+    background: url("checkbox-selected.png") no-repeat;
+}
+.custom-checkbox input[type="checkbox"]{
+    margin: 0;
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+    outline: none;
+    opacity: 0;
+    /* CSS hacks for older browsers */
+    _noFocusLine: expression(this.hideFocus=true);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -khtml-opacity: 0;
+    -moz-opacity: 0;
+}
+/* Let's Beautify Our Form */
+form{
+    margin: 20px;
+}
+label{
+    display: block;
+    padding: 2px 0;
+}
+input[type="submit"]{
+    float: left;
+    background: #f2f2f2;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    margin-top: 20px;
+    padding: 4px 10px;
+    cursor: pointer;
+    outline: none;
+}
+input[type="submit"]:hover{
+    color: #fff;
+    border-color: #1b7aa9;
+    background-color: #239fdb;
+}
+
+.row .remember_me {
+    padding-left:17px;
+    padding-bottom:20px;
+}
+
+.risk-option {
+    display: inline-block;
+}
+
+.workflow-sla-options{
+    /*color: #666666; */
+    font-weight: bold;
+}
+
+.workflow-sla-options li {
+    padding: 0 0 10px 0px;
+}
+
+.demo-list ul li {
+    color:#666666;
+}
+.workflow-sla-options ul li {
+    color:#666666;
+}
+
+.workflow-sla-options li .form-control{
+    display: inline-block;
+    width:auto;
+}
+.inner-content {
+    padding-left: 30px;
+}
+.inner-content .task-bar {
+    background-color: #FFFFFF;
+    padding:0px;
+    padding-bottom:15px;
+}
+
+.search-box-admin {
+    margin-top: -13px;
+}
+.search-box-admin .navbar-form {
+    padding-left:0px;
+}
+.usersaccess-task-bar {
+    margin-bottom: 8px;
+}
+
+.myprofile-details input{
+    font-size: 120%;
+    font-weight: bolder;
+    color:#666666:
+}
+.myprofile-details label{
+    font-weight: normal;
+    color:#666666:
+}
+
+.navbar-toggle {
+    float: left;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 767px) {
+
+    /* outer div */
+    .row-offcanvas {
+        position: relative;
+        left: 0;
+        -webkit-transition: left .3s ease-in;
+        -most-transition: left .3s ease-in;
+        transition: left .3s ease-in;
+    }
+
+    /* sidebar */
+    .sidebar-offcanvas {
+        left: -107%;
+        width: 80%;
+        position: absolute;
+        top: 0;
+        height: 100%;
+        background-color: #F7F7F7;
+        padding: 0px;
+    }
+
+    /* content */
+    .row-offcanvas.active {
+        left: 220%;
+        width: 280px;
+    }
+
+    /* Make the menu headers the same size as the
+       bootstrap navbar */
+    [data-role='panelbar'] .k-header {
+        min-height: 50px;
+    }
+    .navbar-static-top {
+        display:block;
+    }
+
+}
+
+@media screen and (min-width: 767px) {
+    .navbar-static-top {
+        display:none;
+    }
+}
+
+
+.action_field {
+    padding-left: 30px;
+    background-image: url('../images/settingsicon.jpg');
+    background-size: 35%;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+
+/*********MODEL STYLES*******/
+.modal-dialog{
+    width:800px;
+    height:1200px;
+}
+.modal-dialog .row{
+   /* padding-top:10px;
+    padding-bottom:10px;*/
+}
+
+.modal-dialog  .header_field {
+    padding-left: 30px;
+    background-image: url('../dialog/resources/images/settingsicon.jpg');
+    background-size: 3%;
+    background-repeat: no-repeat;
+}
+.modal-dialog  .modal-header {
+    background-color:rgb(216, 216, 216);
+    border-radius:6px;
+}
+.btn-default .filter-option {
+    color: #000000;
+}
+.btn-default .filter-option:focus, .btn-default .filter-option:hover {
+    color: #000000;
+}
+
+.modal-body .label_modal_body{
+    color:#BBBBBB;
+    line-height: 34px;
+}
+.delimiter {
+    width:100%;
+    height:1px;
+    border-top: 1px solid #e5e5e5;
+    /*margin-top:15px;*/
+    margin-bottom:15px;
+}
+
+.add-item-modal-dialog{
+    margin: 200px auto;
+    width:600px;
+    height: 300px;
+}
